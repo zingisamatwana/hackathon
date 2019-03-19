@@ -10,7 +10,7 @@ def sum_array(array):
             sum = sum + item
     return item
 
-fibonacci_cache = {1:1,2:1}
+fibonacci_cache = {0:0,1:1,2:1}
 def fibonacci(n):
 
     '''Return nth term in fibonacci sequence'''
