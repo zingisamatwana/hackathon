@@ -10,5 +10,5 @@ setup(
     install_requires=['numpy'],
     url='https://github.com/<zingm>/<hackathon>',
     author='<zingisa>',
-    author_email='<Your Email>'
+    author_email='<zingisamatwana@gmail.com>'
 )

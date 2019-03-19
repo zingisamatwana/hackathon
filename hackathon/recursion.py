@@ -20,7 +20,7 @@ def fibonacci(n):
     value = fibonacci(n-2) + fibonacci(n-1)
     fibonacci_cache[n] = value
     return value
-
+factorial_cache = {}
 def factorial(n):
 
     '''Return n!'''
