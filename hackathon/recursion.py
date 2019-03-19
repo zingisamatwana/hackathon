@@ -4,9 +4,6 @@ def sum_array(array):
 
     sum = 0
     for item in array:
-        if type(item) == type([]):
-            sum = sum + sum_array(element)
-        else:
             sum = sum + item
     return item
 
