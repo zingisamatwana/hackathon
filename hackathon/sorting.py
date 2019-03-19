@@ -31,7 +31,7 @@ def merge_sort(items):
     result += list2[j:]
     return result
 
-def quick_sort(items):cd
+def quick_sort(items):
 
     '''Return array of items, sorted in ascending order'''
     if len(items) == 1 or len(items) == 0:
