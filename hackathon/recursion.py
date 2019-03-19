@@ -1,11 +1,10 @@
 def sum_array(array):
 
     '''Return sum of all items in array'''
-
-    sum = 0
-    for item in array:
-            sum = sum + item
-    return item
+    if (len(array))<=1:
+        return array[0]
+    else:
+        return array.pop(0)+sum_array(array)
 
 fibonacci_cache = {0:0,1:1,2:1}
 def fibonacci(n):
