@@ -1,7 +1,7 @@
 ## hackathon algorithm package
 
 This library implements various algorithms
-for sorting , calculating elements in an array
+for sorting , calculating elements in an array,
 the fibonacci function to find nth fibonacci value
 and the function to compute a factorial of the number
 
